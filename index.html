@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AFROVERSO – Cultura Afrodescendiente</title>
+
+  <!-- Google Fonts: título y cuerpo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/typography.css">
+</head>
+<body>
+  <div class="site">
+    <header class="site-header" role="banner" aria-label="Cabecera del sitio">
+      <div class="brand">
+        <h1>AFROVERSO</h1>
+        <p class="tagline">Cultura Afrodescendiente</p>
+      </div>
+
+      <nav class="main-nav" role="navigation" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#articles">Artículos</a></li>
+          <li><a href="#gallery">Galería</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content" id="principal" role="main">
+      <section class="hero" aria-labelledby="welcome-title">
+        <h2 id="welcome-title">Bienvenidos a AFROVERSO</h2>
+        <p>AFROVERSO – Cultura, Identidad y Poder es un espacio digital que celebra la riqueza de la cultura afrodescendiente. Aquí convergen música, historia, moda y arte, conectando las raíces con el futuro.</p>
+      </section>
+
+      <section class="featured-articles" aria-label="Artículos destacados">
+        <article>
+          <header>
+            <h3>Raíces y memoria</h3>
+            <p class="meta">Por Redacción — <time datetime="2026-02-01">Febrero 2026</time></p>
+          </header>
+          <p>La cultura africana es un legado vivo que inspira identidad, creatividad y resistencia. Sus tradiciones, expresiones artísticas y valores comunitarios han influido en el mundo entero, conectando pasado y futuro.</p>
+          <a href="https://www.unesco.org/es/days/african-culture" class="read-more" target="_blank" rel="noopener noreferrer">Leer más</a>
+        </article>
+
+        <article>
+          <header>
+            <h3>Personas afrodescendientes</h3>
+            <p class="meta">Por Redacción — <time datetime="2026-02-01">Febrero 2026</time></p>
+          </header>
+          <p>Las personas afrodescendientes representan cerca de una quinta parte de la población latinoamericana. Su reconocimiento y garantía de derechos son esenciales para la justicia social, la igualdad y el desarrollo sostenible.</p>
+          <a href="https://igualdad.cepal.org/es/eje-de-desigualdad/personas-afrodescendientes" class="read-more" target="_blank" rel="noopener noreferrer">Leer más</a>
+        </article>
+      </section>
+
+      <section id="gallery" class="gallery" aria-label="Galería visual">
+        <figure>
+          <a href="https://pixabay.com/es/images/search/moda%20afro/" target="_blank" rel="noopener noreferrer">
+            <img src="https://i.pinimg.com/1200x/07/d2/79/07d27974b3b5e245437d3982ebc3a49a.jpg" alt="Moda Afro"></a>
+          <figcaption>Galería de Moda Afro</figcaption>
+        </figure>
+
+        <figure>
+          <a href="https://academia-lab.com/enciclopedia/arte-afroamericano/" target="_blank" rel="noopener noreferrer">
+            <img src="https://reinosafricanos.net/wp-content/uploads/vibrante-viaje-travesia-arte.webp" alt="Arte y Expresión">
+          </a>
+          <figcaption>Arte y Expresión</figcaption>
+        </figure>
+
+        <figure>
+          <a href="https://www.senalcolombia.tv/documental/afrodescendientes-que-cambiaron-curso-historia" target="_blank" rel="noopener noreferrer">
+            <img src="https://s2982.pcdn.co/wp-content/uploads/2019/03/The-Undefeated-Kwame-Alexander-1.jpg.optimal.jpg" alt="Referentes Afro">
+          </a>
+          <figcaption>Referentes Afro Importantes</figcaption>
+        </figure>
+      </section>
+
+      <section id="articles" class="articles" aria-label="Últimos artículos">
+        <article>
+          <a href="https://www.tiktok.com/@carolina.afrofem/video/7090335874302430469?q=Hablemos%20del%20racismo%20generacional&t=1771625717367" target="_blank" rel="noopener noreferrer"><header><h3>Hablemos del racismo generacional</h3></header>
+          <p>Una reflexión sobre el racismo generacional.</p></a>
+        </article>
+
+        <article>
+          <a href="https://www.tiktok.com/@mundogeografias/video/7328825682312678688?q=Datos%20de%20%C3%81frica%20que%20definitivamente%20no%20esperabas%F0%9F%91%80&t=1771625851518" target="_blank" rel="noopener noreferrer"><header><h3>Datos de África que definitivamente no esperabas👀</h3></header>
+          <p>Celebraciones de divorcio en Mauritania, Pirámides en Sudán, Poliandría en Kenia, el hombre más rico de la historia, ciudades de África…</p></a>
+        </article>
+      </section>
+
+      <!-- Nuevo: rejilla de publicaciones tipo revista-->
+      <section class="post-grid" aria-label="Archivo visual y publicaciones">
+        <!-- varias post-card (mantengo tu contenido, usando <time> para fechas y figuras semánticas) -->
+        <article class="post-card post-card--accent">
+          <figure>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+              <img src="https://filosofiasmundiales.net/wp-content/uploads/vibrante-espectaculo-danza-musica-1.webp" alt="La cultura afrodescendiente">
+            </a>
+            <figcaption>Video</figcaption>
+          </figure>
+          <header><h3>La cultura afrodescendiente</h3><p class="meta"><time datetime="2026-02-01">Feb 2026</time></p></header>
+          <p>Descubre la rica herencia afrodescendiente en Centroamérica. Conoce sus tradiciones, comida y más.</p>
+        </article>
+
+        <article class="post-card" style="--post-card-bg:#ffffff; --post-card-color:#fff; --post-card-border: rgba(0,0,0,0.12);">
+          <figure>
+            <a href="https://music.youtube.com/playlist?list=RDATfcYWZybw&playnext=1&si=tUDqQzt64A82Holq" target="_blank" rel="noopener noreferrer">
+              <img src="https://static.emastered.com/images/blog-assets/7733.webp?v=sweHBGe" alt="Musica Afro">
+            </a>
+          </figure>
+          <header><h3>Musica <strong>Afro</strong></h3></header>
+          <p>Los ritmos afro como champeta, afrobeats y hip-hop son lenguajes universales que conectan comunidades en todo el mundo.
+</p>
+        </article>
+
+        <article class="post-card">
+          <figure>
+          <a href="https://www.colorfulblack.com/es/blogs/magazine/l-afro-tout-un-symbole" target="_blank" rel="noopener noreferrer">
+            <img src="https://lazosdelagente.com/wp-content/uploads/2025/05/Afro-Estetica-Identidad-Resistencia-y-Moda-en-Colombia.png" alt="Moda y Estética Afro">
+          </a>
+          </figure>
+          <header><h3>Moda y Estética Afro</h3></header>
+          <p>Los turbantes, tejidos y peinados afro son símbolos de orgullo e identidad que influyen en tendencias globales.</p>
+        </article>
+
+        <article class="post-card">
+          <figure>
+            <a href="https://www.teseopress.com/historiasconectadasdelcaribeeuropaafricaylasamericas/chapter/manifestaciones-de-resistencia-cultural-de-los/" target="_blank" rel="noopener noreferrer">
+              <img src="https://preview.redd.it/afro-resistance-throughout-history-v0-zyz66vi2nruf1.jpg?width=620&format=pjpg&auto=webp&s=b97ffea6df96e6d1f6a4c02de5d6ec205d85bfdb" alt="Historia y Resistencia afro">
+            </a>
+          </figure>
+          <header><h3>Historia y Resistencia afro</h3></header>
+          <p>Desde los palenques en Cartagena hasta los movimientos contemporáneos, la resistencia afro es memoria viva.</p>
+        </article>
+
+        <article class="post-card">
+          <a href="https://programaacua.org/platos-tipicos-afrocolombianos/" target="_blank" rel="noopener noreferrer">
+            <img src="https://atlantico.gov.co/images/1111111FestivalDelDulce.jpg" alt="Gastronomía Afro">
+          </a>
+          </figure>
+          <header><br><h3>Gastronomía Afro</h3></header>
+          <p>Platos como el arroz con coco, el pescado frito y las frituras son herencia afrocaribeña que une tradición y sabor.</p>
+        </article>
+
+        <article class="post-card">
+          <figure>
+          <a href="https://www.denverartmuseum.org/es/colleccion/african-arts" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.pikaramagazine.com/wp-content/uploads/2019/05/Bianca-Batle-Nguema-lorenzo-duaso-pikara-magazine-870x576.jpg" alt="Arte Afro">
+          </a>
+          </figure>
+          <header><br><h3>Arte Afro</h3></header>
+          <p>El arte afrocolombiano es una expresión vibrante que refleja la historia, la resistencia y la identidad de la comunidad afrodescendiente.</p>
+        </article>
+
+        <article class="post-card">
+          <figure>
+          <a href="https://www.youtube.com/watch?v=p8ad2EEIXcg" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.mineducacion.gov.co/1780/articles-357070_recurso_1.jpg" alt="Educación e Identidad">
+          </a>
+          </figure>
+          <header><br><h3>Educación e Identidad</h3></header>
+          <p>La educación es clave para fortalecer la identidad afrocolombiana y promover el reconocimiento de su patrimonio cultural.</p>
+        </article>
+
+        <article class="post-card">
+          <figure>
+          <a href="https://www.dancefestivalincuba.com/los-bailes-caribenos-explorando-su-historia-ritmos-y-estilos/?lang=es" target="_blank" rel="noopener noreferrer">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwaBPj6VmDe3-KOGIXi-4ue69N0kAsQjp-w&s" alt="Ritmos Caribeños">
+          </a>
+          </figure>
+          <header><br><h3>Ritmos Caribeños</h3></header>
+          <p>Los ritmos caribeños son una fusión de influencias africanas, indígenas y europeas que dan vida a la música y la danza de la región.</p>
+        </article>
+
+        <article class="post-card">
+          <figure>
+          <a href="https://www.quira-medios.com/literatura-afrocolombiana/" target="_blank" rel="noopener noreferrer">
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/FYXJWAUK2RGGDMUZVE3NBRKAJQ.jpg" alt=" Literatura Afro">
+          </a>
+          </figure>
+          <header><br><h3> Literatura Afro</h3></header>
+          <p>La literatura afrocolombiana es un espacio de resistencia y afirmación cultural que refleja las vivencias y la identidad de la comunidad afrodescendiente.</p>
+        </article>
+      </section>
+      <!-- Fin nuevo bloque de publicaciones -->
+    </main>
+
+    <aside class="sidebar" role="complementary" aria-label="Biografía del autor y suscripción">
+      <section class="about">
+        <h4>Sobre el proyecto</h4>
+        <p>AFROVERSO es un webzine editorial que explora cultura, música y resistencia afrodescendiente.</p>
+      </section>
+
+      <section class="author">
+        <h4>Autor</h4>
+        <p><strong>Redacción AFROVERSO</strong><br>Investigación y curaduría de contenidos hecha por <strong><em>Armando Miranda Caicedo</em></strong>.</p>
+      </section>
+
+      <section class="subscribe" aria-label="Formulario de suscripción">
+        <h4>Suscríbete al <STRong>AFROVERSO</STRong></h4>
+        <form class="subscribe-form" action="#" method="post" novalidate>
+          <label for="email">Correo electrónico</label>
+          <input id="email" type="email" name="email" placeholder="tu@correo.com" required>
+
+          <label class="checkbox">
+            <input type="checkbox" name="consent" required>
+            Deseo recibir novedades y acepto la política de privacidad
+          </label>
+
+          <button type="submit" class="btn-primary" >Suscribirme</button>
+        </form>
+      </section>
+    </aside>
+
+    <footer class="site-footer" role="contentinfo" aria-label="Pie de página">
+      <p>&copy; <time datetime="2026">2026</time> AFROVERSO. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <script>
+    (function(){
+      const val = getComputedStyle(document.body).getPropertyValue('--css-loaded').trim();
+      if (val === 'loaded') console.info('CSS cargado: assets/css/main.css');
+      else console.warn('Parece que main.css no se aplicó.');
+    })();
+  </script>
+</body>
+</html>
